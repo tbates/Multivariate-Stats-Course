@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Course Outline"
+date: 2020-12-01 00:01
+comments: true
+categories: intro
+---
+
+<a name="top"></a>
+### Course Outline
+
+Overview of the next 5 weeks of [MV stats](http://www.drps.ed.ac.uk/15-16/dpt/cxpsyl11054.htm)
+
+1. Factor analysis
+2. Structural Equation Modelling
+3. CFA
+4. Path Analysis
+5. Latent variable modeling
+
+### Week
+1. Introduces you to the idea of latent variables, the concept of a path diagram, and also how to do a factor analysis in R.
+	* Show how the EFA needs to fix latent variances at 1 and covariances at 0, and fix the upper right triangle of whatever matrix contains the latent loadings. Show what rotation does (R is great for that - just pull the loadings matrix and throw in at promax() or varimax(). Introduce indeterminacy by talking about how the rotations do not differ in fit. Then the next week convert that same model to CFA. Use a real data set so it has a purpose.
+	* **Tutorial**: Specific SEM models
+2. Introduces.
+	* In week two we will link these ideas to the modelling you already know by building the equivalent of `lm(y ~ x + z)` in `umx` package. This leverages two ideas you already understand: Factor analysis and linear models/ANOVA.</li>
+			<em>Curb your enthusiasm</em>: By week 2 you should understand what boxes, circles, triangles, diamonds, and straight and curved arrows are. 
+	* **Tutorial**: Specific SEM models
+3. Introduces.
+	* The idea of causality, testing (and, critically, mxCompare()-ing) ideas. And use real tasks, such as handling a ordinal outcomes as thresholded normals.
+	* **Tutorial**: Specific SEM models
+4. Introduces
+	* 
+	* **Tutorial**: Specific SEM models
+5. Introduces.
+	* 
+	* **Tutorial**: Specific SEM models
+
+If it was me in a limited course, I’d spend the time showing how to solve practical problems, and record a compulsory to watch video lecture deriving modelling concepts from first principles (RAM, Lisrel, general matrix models, LS, FIML etc).
+
+Book: I like John Loehlin
+My paper:
