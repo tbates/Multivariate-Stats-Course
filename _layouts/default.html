@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		{% feed_meta %}
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <!-- syntax highlighting CSS -->
+        <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
+        <!-- Custom CSS -->
+        <!-- <link rel="stylesheet" href="/css/main.css"> -->
+		<link rel="stylesheet" href="/stylesheets/styles.css">
+    	<link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+    	<link rel="stylesheet" href="/stylesheets/sidebox.css">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    </head>
+
+    <body>
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <!-- <a class="extra" href="/">home</a> -->
+          </div>
+          {{ content }}
+          <div class="footer">
+            <div class="contact">
+              <p>
+                Timothy Bates<br />
+                timothy.c.bates@gmail.com
+              </p>
+              <p>
+				<a href="https://github.com/tbates">github/tbates</a><br />
+                <a href="https://twitter.com/timothycbates">twitter/timothycbates</a><br />
+                <a href="http://scholar.google.com/citations?user=5MDWBs8AAAAJ&hl=en">google scholar</a><br />
+                <a href="http://www.psy.ed.ac.uk/people/view.php?name=timothy-bates">Edinburgh University</a><br />
+                <a href="http://r-bloggers.com">r-bloggers</a><br />
+				<!-- 
+					<a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Ftbates.github.io%2F'  target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-big_2x.png' alt='follow umx in feedly' width='131' height='56'></a> 
+				-->
+
+              </p>
+			  <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+            </div>
+          </div>
+        </div>
+</section>
+<script src="javascripts/scale.fix.js"></script>
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  	</script>
+   <script type = "text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("todo-replaceme!!!");
+            pageTracker._trackPageview();
+            } catch(err) {
+            	
+            }
+	</script>
+	
+	{% if page.toc %}
+	<script>
+		// Add table of contents!
+		function $get(selector) { return document.querySelector(selector); };
+		function $all(selector) {
+			return Array.prototype.slice.call(document.querySelectorAll(selector));
+		}
+
+		function buildTOC_ul(selector) {
+		      var levels=[document.createElement("ul"),null,null];
+		      levels[0].style
+		      var lvl=0, c=0;
+		      if (!selector) selector = "h2, h3, h4";
+		      $all(selector).forEach(function(el) {
+		            if (!el.id) el.id='section_'+ ++c;
+		            var newLvl=(el.tagName=="H2"?0:el.tagName=="H3"?1:2);
+		            for (;lvl<newLvl;lvl++)
+		                 levels[lvl].appendChild(levels[lvl+1]=document.createElement("ul"));
+		            lvl=newLvl;
+
+		            var li=document.createElement('li');
+		            li.innerHTML="<a href='#"+el.id+"'></a>";
+		            li.firstChild.innerHTML=el.innerHTML;
+		            levels[lvl].appendChild(li);
+		      });
+		      return levels[0];
+		}
+		function addTOC(contentElement, before, tocClass) {
+		      if (before===undefined) before=contentElement.firstChild;
+		      var prefix = "";
+		        var c = contentElement.className;
+		        if (c) prefix="." + (c.indexOf(" ")==-1?c:c.substr(0,c.indexOf(" "))) + " ";
+		      var selector = prefix+"h2, "+prefix+"h3, "+prefix+"h4";
+		      var toc=document.createElement("div");
+		      toc.className=tocClass||"sidebox";
+		      toc.appendChild(document.createTextNode("Contents"));
+		      toc.appendChild(buildTOC_ul(selector));
+		      contentElement.insertBefore(toc, before);
+		}
+		var _post_ = $get("#post") || $get("#content");
+		addTOC(_post_, _post_.firstChild.nextSibling.nextSibling);
+	</script>
+	{% endif %}
+
+</body>
+</html>
