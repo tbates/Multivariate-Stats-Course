@@ -2,12 +2,12 @@ gems:
   - jekyll-feed
 
 # url for [snaptortoise](https://github.com/snaptortoise/jekyll-rss-feeds)
-url: http://tbates.github.io
+url: http://tbates.github.io/Multivariate-Stats-Course/
 
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
-name: umx!
+name: Factor analysis and Path diagrams!
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: Tutorial help doing Structural Equation Modeling in R using the umx and OpenMx packages
+description: Multivariate stats Factor analysis and Structural Equation Modeling Lectures
 
 # Uncomment if you are planning to run the blog in a subdirectory
 # Note - if you enable this, use jekyll --baseurl '/' to view locally

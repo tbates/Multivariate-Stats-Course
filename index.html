@@ -6,14 +6,57 @@ title: "umx: Help for Structural Equation Modeling"
 <div class="wrapper">
 <section>
 
-	<h3><a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome to getting structural equation modeling done fast.</h3>
+<h3><a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome to multivariate modeling!.</h3>
 
-	<p><strong>umx</strong> is an R package with one purpose: helping you get things done with <a href="http://en.wikipedia.org/wiki/Structural_equation_modeling">Structural Equation Modeling</a> 
+<p>In this set of 5 lectures, you'll complete a factor analysis, <strong>umx</strong> is an R package with one purpose: helping you get things done with <a href="http://en.wikipedia.org/wiki/Structural_equation_modeling">Structural Equation Modeling</a> 
 	using <a href="http://openmx.psyc.virginia.edu">OpenMx</a>. The design goals are to make SEM quicker and easier to implement, update, and publish.</p>
 
-	<p>There is a <a href="http://openmx.psyc.virginia.edu/forums/third-party-software/umx">forum for Q&amp;A-style discussion</a></p>
+<p>In this set of five lectures and five practicals, you will learn about EFA in the form of factor analysis, and implemented as a structural equation model (SEM).
+	
+<ol>
+<li>Week 1</li>
+	<ul>
+		<li>Introduces you to the idea of latent variables, the concept of a path diagram, and also how to do a factor analysis in R.
+			<li>Show how the EFA needs to fix latent variances at 1 and covariances at 0, and fix the upper right triangle of whatever matrix contains the latent loadings. Show what rotation does (R is great for that - just pull the loadings matrix and throw in at promax() or varimax(). Introduce indeterminacy by talking about how the rotations do not differ in fit. Then the next week convert that same model to CFA. Use a real data set so it has a purpose.</li>
+		</li>
+	</ul>
+<li>Week 2</li>
+	<ul>
+		<li>Introduces.
+			<li>In week two we will link these ideas to the modelling you already know by building the equivalent of `lm(y ~ x + z)` in `umx` package. This leverages two ideas you already understand: Factor analysis and linear models/ANOVA.</li>
+			<em>Curb your enthusiasm</em>: By week 2 you should understand what boxes, circles, triangles, diamonds, and straight and curved arrows are. 
+		</li>
+	</ul>
 
-<p><a href="https://cran.rstudio.com/web/packages/umx/index.html"><img src="http://cranlogs.r-pkg.org/badges/umx"/></a></p>
+<li>Week 3</li>
+	<ul>
+		<li>Introduces.
+			<li>Week 3: The idea of causality, testing (and, critically, mxCompare()-ing) ideas. And use real tasks, such as handling a ordinal outcomes as thresholded normals.
+			<li><strong>Tutorial</strong>: Specific SEM models</li>
+		</li>
+	</ul>
+
+<li>Week 4</li>
+	<ul>
+		<li>Introduces.
+			<li>Show how.</li>
+		</li>
+	</ul>
+
+<li>Week 5</li>
+	<ul>
+		<li>Introduces.
+			<li>Show how.</li>
+		</li>
+	</ul>
+</ol>
+
+
+If it was me in a limited course, I’d spend the time showing how to solve practical problems, and record a compulsory to watch video lecture deriving modelling concepts from first principles (RAM, Lisrel, general matrix models, LS, FIML etc).
+
+<p>Book: I like John Loehlin
+My paper:
+
 
 	<div id="home">
 	  <h1>Chapters</h1>
