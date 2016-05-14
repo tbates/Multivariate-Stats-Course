@@ -30,6 +30,19 @@ plot(m1)
 ```
 Openness effect on politics is mediated by NFC.
 
+## Transforms
+http://stats.stackexchange.com/questions/298/in-linear-regression-when-is-it-appropriate-to-use-the-log-of-an-independent-va/3530#3530
+#### Transform the IV
+http://stats.stackexchange.com/questions/35711/box-cox-like-transformation-for-independent-variables/35717#35717
+
+## Fit
+### Why AIC and not R^2?
+http://stats.stackexchange.com/questions/13314/is-r2-useful-or-dangerous/13317#13317
+
+
+### Binary and ordinal outcomes
+http://stats.stackexchange.com/questions/20523/difference-between-logit-and-probit-models
+
 ## Classic datasets
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 
