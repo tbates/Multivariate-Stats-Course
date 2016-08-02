@@ -1,0 +1,3 @@
+### Resources
+
+* [Myths about SEM]()
