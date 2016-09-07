@@ -20,3 +20,4 @@ In week two we will leverage the modelling you already know by building the equi
 This leverages two ideas you already understand: Factor analysis and linear models/ANOVA.</li>
 
 *Curb your enthusiasm*: By week 2 you should understand what boxes, circles, triangles, diamonds, and straight and curved arrows are. 
+
