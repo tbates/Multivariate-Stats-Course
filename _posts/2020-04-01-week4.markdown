@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week 4"
+title: "Week 4: Path analysis"
 date: 2020-04-01 00:01
 comments: true
 categories: intro
@@ -14,3 +14,5 @@ categories: intro
 3. CFA
 4. **Path Analysis**
 5. Latent variable modeling
+
+What are some good examples?

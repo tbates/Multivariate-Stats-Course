@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "test post"
+title: "Week2: SEM"
 date: 2020-02-01 00:01
 comments: true
 categories: intro

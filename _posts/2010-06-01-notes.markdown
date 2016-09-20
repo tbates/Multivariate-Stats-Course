@@ -9,6 +9,11 @@ categories: notes
 <a name="top"></a>
 ## MSc  stats notes
 
+https://github.com/tbates/Multivariate-Stats-Course
+http://tbates.github.io/Multivariate-Stats-Course/
+
+https://cran.r-project.org/web/packages/psych/vignettes/psych_for_sem.pdf
+
 ```splus
 library(arm)
 m1 = lm(mpg~ wt*disp, data = mtcars)

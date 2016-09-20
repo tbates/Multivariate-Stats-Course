@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week 3"
+title: "Week 3: CFA"
 date: 2020-03-01 00:01
 comments: true
 categories: intro
