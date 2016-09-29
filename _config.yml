@@ -1,27 +1,13 @@
-gems:
-  - jekyll-feed
-
 repository: "tbates/Multivariate-Stats-Course"
-
-# url for [snaptortoise](https://github.com/snaptortoise/jekyll-rss-feeds)
-url: "https://tbates.github.io/Multivariate-Stats-Course"
+url: "https://tbates.github.io/"
+# Note - if you enable this, use jekyll --baseurl '/' to view locally
+baseurl: "/Multivariate-Stats-Course"
 
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
 name: Factor analysis and Path diagrams!
 # Short description (goes below the title; it will also be used in the RSS feed)
 description: "Lectures on multivariate statistics, factor analysis and Structural Equation Modeling"
 
-# Uncomment if you are planning to run the blog in a subdirectory
-# Note - if you enable this, use jekyll --baseurl '/' to view locally
-baseurl: /
-
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-# markdown: redcarpet
-# redcarpet:
-  # extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "footnotes"]
+gems:
+  - jekyll-feed
 

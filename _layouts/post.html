@@ -6,11 +6,11 @@ layout: default
 <div class="post">
 	<div id="page-navigation"> 
 	        {% if page.next.url %} 
-	                <a href="{{page.next.url}}" title="previous Post: {{page.next.title}}">&laquo; Previous: {{page.next.title}}</a> 
+	                <a href="{{ site.baseurl }}{{ page.next.url }}" title="previous Post: {{page.next.title}}">&laquo; Previous: {{page.next.title}}</a> 
 	        {% endif %} 
 			 | 
 	        {% if page.previous.url %} 
-	                <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"> Next: {{page.previous.title}} &raquo; </a> 
+	                <a href="{{ site.baseurl }}{{ page.previous.url }}" title="Previous Post: {{page.previous.title}}"> Next: {{page.previous.title}} &raquo; </a> 
 	        {% endif %} 
 	</div> 
 <h2>{{ page.title }}</h2>
@@ -21,13 +21,13 @@ layout: default
 	        <div class="clear">&nbsp;</div> 
 	        <div class="right"> 
 	        {% if page.next.url %} 
-	                <a href="{{page.next.url}}" title="previous Post: {{page.next.title}}">&laquo; Previous: {{page.next.title}}</a> 
+	                <a href="{{ site.baseurl }}{{ page.next.url }}" title="previous Post: {{page.next.title}}">&laquo; Previous: {{page.next.title}}</a> 
 	        {% endif %} 
 	        </div> 
 
 	        <div class="left"> 
 	        {% if page.previous.url %} 
-	                <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"> Next: {{page.previous.title}} &raquo; </a> 
+	                <a href="{{ site.baseurl }}{{ page.previous.url }}" title="Previous Post: {{page.previous.title}}"> Next: {{page.previous.title}} &raquo; </a> 
 	        {% endif %} 
 	        </div> 
 
