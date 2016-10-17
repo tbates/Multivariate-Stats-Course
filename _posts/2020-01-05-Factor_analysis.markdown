@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "1. Overview and Factor Analysis"
-date: 2020-01-01 00:01
+title: "Overview and Factor Analysis"
+date: 2020-01-05 00:01
 comments: true
 categories: intro
 ---
