@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Advanced concepts"
+title: "5. Advanced concepts and wrap-up"
 date: 2020-05-01 00:01
 comments: true
 categories: intro

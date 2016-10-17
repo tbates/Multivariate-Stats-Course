@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Overview and Factor Analysis"
+title: "1. Overview and Factor Analysis"
 date: 2020-01-01 00:01
 comments: true
 categories: intro
@@ -11,8 +11,7 @@ categories: intro
 
 [This block](http://tbates.github.io/Multivariate-Stats-Course) of the [MV course](http://www.drps.ed.ac.uk/current/dpt/cxpsyl11054.htm) introduces the idea of latent variables, the concept of a path diagram, on to general Structural Equation Modeling or SEM.
 
-An [overview of the next 5 weeks is here]()
-
+An [overview of the next 5 weeks is here](http://tbates.github.io/Multivariate-Stats-Course/intro/2020/12/01/outline.html)
 
 1. Factor analysis
 2. CFA & concepts of fit
