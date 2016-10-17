@@ -6,7 +6,7 @@ categories: intro
 ---
 
 <a name="top"></a>
-### Course Outline
+
 
 Overview of the next 5 weeks of [MV stats](http://www.drps.ed.ac.uk/15-16/dpt/cxpsyl11054.htm)
 

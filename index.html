@@ -26,7 +26,7 @@ using free software <a href="https://cran.r-project.org/web/packages/OpenMx">Ope
 <div id="home">
   <h1>Chapters</h1>
   <ol class="posts">
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ol>
