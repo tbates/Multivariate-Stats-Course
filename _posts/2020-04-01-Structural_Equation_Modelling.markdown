@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Structural Equation Modelling"
-date: 2020-04-01 00:01
 comments: true
 categories: intro
 ---

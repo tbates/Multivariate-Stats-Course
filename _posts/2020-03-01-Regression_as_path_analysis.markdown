@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Path Analysis: Regression and lm as a subset of SEM"
-date: 2020-03-01 00:01
 comments: true
 categories: intro
 ---

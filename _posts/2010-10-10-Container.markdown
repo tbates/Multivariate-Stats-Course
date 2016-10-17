@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Collected Introductory Multivariate pages"
-date: 2010-10-10 00:00
 comments: true
 categories: container
 ---
