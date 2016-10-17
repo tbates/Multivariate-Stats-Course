@@ -1,23 +1,28 @@
 ---
 layout: post
-title: "Week 1: Factor Analysis"
+title: "Overview and Factor Analysis"
 date: 2020-01-01 00:01
 comments: true
 categories: intro
 ---
 
 <a name="top"></a>
-### Week One
+### Overview and factor analysis
 
-Overview of the next 5 weeks of [MV stats](http://www.drps.ed.ac.uk/current/dpt/cxpsyl11054.htm)
+[This block](http://tbates.github.io/Multivariate-Stats-Course) of the [MV course](http://www.drps.ed.ac.uk/current/dpt/cxpsyl11054.htm) introduces the idea of latent variables, the concept of a path diagram, on to general Structural Equation Modeling or SEM.
 
-1. **Factor analysis**
-2. Structural Equation Modelling
-3. CFA
-4. Path Analysis
+An [overview of the next 5 weeks is here]()
+
+
+1. Factor analysis
+2. CFA & concepts of fit
+3. Path Analysis: Regression and lm as a subset of SEM
+4. Structural Equation Modelling
 5. Latent variable modeling
+6. Causality?
 
-Introduces you to the idea of latent variables, the concept of a path diagram, and also how to do a factor analysis in R.
+
+We begin this week by learning how to do a factor analysis in R.
 
 Show how the EFA needs to fix latent variances at 1 and covariances at 0, and fix the upper right triangle of whatever matrix contains the latent loadings.
 
@@ -28,9 +33,11 @@ Introduce indeterminacy by talking about how the rotations do not differ in fit.
 ### How many factors?
 #### Horn's Parallel analysis
 
+http://stats.stackexchange.com/questions/97802/how-to-correctly-interpret-a-parallel-analysis-in-exploratory-factor-analysis
+
 ### Rotation
 
-We now now about loadings
+We now know about loadings
 
 ### Scores: Why scores are not just data %*% loadings
 
