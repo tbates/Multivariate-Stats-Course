@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "5. Advanced concepts and wrap-up"
-date: 2020-05-01 00:01
+title: "Structural Equation Modelling"
+date: 2020-04-01 00:01
 comments: true
 categories: intro
 ---
 
 <a name="top"></a>
-### Advanced Concepts
+### Structural Equation Modelling
 
 1. Factor analysis
 2. CFA & concepts of fit
@@ -15,3 +15,6 @@ categories: intro
 4. Structural Equation Modelling
 5. Latent variable modeling
 6. Causality?
+
+
+What are some good examples?

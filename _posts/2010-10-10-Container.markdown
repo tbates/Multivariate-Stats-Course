@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Collected Introductory Multivariate pages"
-date: 2015-06-20 00:00
+date: 2010-10-10 00:00
 comments: true
 categories: container
 ---
@@ -23,7 +23,7 @@ Sampling error of the mean:
 Critical statistics are the ratio of an effect size compared to a sampling error. For instance, t = ES / SE
 
 <ul>
-  {% for post in site.categories.intro %}
+  {% for post in site.categories.intro reversed %}
 	{% if post.url %}
   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 	{% endif %}

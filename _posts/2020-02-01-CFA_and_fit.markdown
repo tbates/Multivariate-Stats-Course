@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CFA and concepts of fit"
-date: 2020-02-04 00:01
+date: 2020-02-01 00:01
 comments: true
 categories: intro
 ---
