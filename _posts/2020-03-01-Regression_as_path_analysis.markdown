@@ -17,12 +17,15 @@ This week we will leverage the modelling you already know by building the equiva
 
 This builds on two ideas you already understand: Factor analysis and linear models/ANOVA.</li>
 
+### Regression
+
+The relationship of a single dependent variable (Y) to one or more independent variables (X<sub>1</sub>, X<sub>2</sub> etc.)
+Y = 𝛽<sub>0</sub> + (𝛽<sub>1</sub> × X<sub>1</sub>) + (𝛽<sub>2</sub> × X<sub>2</sub>) + (𝛽<sub>3</sub> × X<sub>3</sub>)
+	
 ### Regression and lm as a subset of SEM
-
-
 
 | Regression                          | SEM                                    |
 |:------------------------------------|:---------------------------------------|
-| Only one dependent variable.        | Multiple dependent variables.          |
-| Independent variables covaried out. | IVs correlate or influence each other. |
-| Assumes measures error free.        | Separates measurement from structure.  |
+| Only one dependent variable.        | Multiple dependent variables allowed.  |
+| Independent variables additive.     | IVs relational: relate to each other.  |
+| Assumes measures error free.        | Can estimate error and true effect.    |
