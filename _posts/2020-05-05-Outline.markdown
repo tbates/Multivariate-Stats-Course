@@ -22,20 +22,26 @@ Overview of the next 5 weeks of [MV stats](http://www.drps.ed.ac.uk/15-16/dpt/cx
 	* Show how the EFA needs to fix latent variances at 1 and covariances at 0, and fix the upper right triangle of whatever matrix contains the latent loadings. Show what rotation does (R is great for that - just pull the loadings matrix and throw in at promax() or varimax(). Introduce indeterminacy by talking about how the rotations do not differ in fit. Then the next week convert that same model to CFA. Use a real data set so it has a purpose.
 	* **Tutorial**: Factor analysis of built-in personality data
 2. Introduces SEM
-	* Implement our factor analysis as an exploratory factor analysis
-	* Introduce the idea of confirmatory factor analysis
-	* Discuss the important concept which this brings with it: fit
-	* **Tutorial**: Building a CFA of TBD
-3. SEM as a super-set of regression
-	* Linking these ideas to the modelling you already know by building the equivalent of `lm(y ~ x + z)` in `umx` package. This leverages two ideas you already understand: Factor analysis and linear models/ANOVA.
+	* Implement our factor analysis as an exploratory factor analysis.
+	* Introduce the idea of confirmatory factor analysis.
+	* Discuss the important concept which this brings with it: fit.
+	* **Tutorial**: Building a CFA of built-in five-factor model data.
+3. Path models: "Regression on steroids"
+	* Building the equivalent of `lm(y ~ x + z)` in `umx`.
+	* This leverages two ideas you already understand: Factor analysis and linear models/ANOVA.
+	* Measurement invariance?
 	* *Curb your enthusiasm*: By week 2 you should understand what boxes, circles, triangles, diamonds, and straight and curved arrows are. 
 	* **Tutorial**: Implementing regression model in umx.
-4. Model comparison as the stairway to heaven.
-	* Testing (and, critically, mxCompare()-ing) ideas.
+4. Model comparison a ratchet taking science toward truth and valid causal inference.
+	* Testing (and, critically, mxCompare()-ing) *ideas*.
 	* **Tutorial**: Modifying and comparing models.
+	* "*Are there aspects of personality*"?
 5. Data complexities, further opportunities, and summary discussion
+	* Multi-group models& twins
 	* Handling ordinal outcomes as thresholded normals.
-	* Multi-group models.
+	* Least-squares: WLS
+	* Multi-level
+	* IRT?
 	* **Tutorial**: Multiple group model (measurement invariance?)
 
 The goal of this block is to get you in a position to solve practical problems with SEM, and to understand its applicability and caveates in interpretation and more complex data types and models.
@@ -43,5 +49,8 @@ The goal of this block is to get you in a position to solve practical problems w
 We can't in this space allocated, cover the mathematical basis of SEM, competing implementations (RAM, Lisrel, general matrix models). Nor can we cover the full range of analytic methods (LS, FIML etc). A longer term goal is to present this material in accompanying video lectures deriving modelling concepts.
 
 ### Bibliography
-Book: I like John Loehlin's
-There is a paper on the package we will use: umx:
+Book: I like John Loehlin's (2004). *Latent Variable Models: An Introduction to Factor, Path, and Structural Equation Analysis* (4 ed.): Psychology Press.
+
+There is a paper on the package we will use: *umx: A library for Structural Equation and Twin Modelling in R*
+
+* Bates, T. C., Neale, M. C., & Maes, H. H. (under review). umx: A library for Structural Equation and Twin Modelling in R. *Journal of Statistical Software*.
