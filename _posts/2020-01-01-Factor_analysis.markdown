@@ -28,10 +28,24 @@ Show what rotation does (R is great for that - just pull the loadings matrix and
 
 Introduce indeterminacy by talking about how the rotations do not differ in fit.
 
+### Keeping it real with example data
+
+```splus
+# install.packages("psych")
+library("psych")
+data(bfi)
+data(bfi.dictionary)
+str(bfi)
+
+data(iqitems)
+
+```
+
 ### How many factors?
 #### Horn's Parallel analysis
 
 http://stats.stackexchange.com/questions/97802/how-to-correctly-interpret-a-parallel-analysis-in-exploratory-factor-analysis
+
 
 ### Rotation
 
@@ -60,7 +74,7 @@ v5 <- c(1,1,1,1,1,3,3,3,3,3,1,1,1,1,1,6,4,5)
 v6 <- c(1,1,1,2,1,3,3,3,4,3,1,1,1,2,1,6,5,4)
 m1 <- cbind(v1,v2,v3,v4,v5,v6)
 
-fa <- factanal(m1, factors=3,scores="regression")
+fa <- factanal(m1, factors = 3,scores = "regression")
 
 fa$scores # the correct solution
 
@@ -83,7 +97,7 @@ Factor3       0       0       1
 
 #### What happens with missing data
 
-**Next week**: We will convert this model to CFA. Use a real data set so it has a purpose.
+**Next week**: We will convert this model to CFA.
 
 
 ## Refs
