@@ -22,7 +22,10 @@ categories: intro
 
 ### Multi-level nested data
 
-class and school
+Class and school
 
 ### eSEM
+
+Marsh, H. W., Morin, A. J., Parker, P. D., & Kaur, G. (2014). Exploratory structural equation modeling: an integration of the best features of exploratory and confirmatory factor analysis. Annu Rev Clin Psychol, 10, 85-110. doi:[10.1146/annurev-clinpsy-032813-153700](http://www.annualreviews.org/doi/pdf/10.1146/annurev-clinpsy-032813-153700)
+
 
