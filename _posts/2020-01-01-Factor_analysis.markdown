@@ -43,19 +43,15 @@ data(iqitems)
 
 ### How many factors?
 #### Horn's Parallel analysis
-
-http://stats.stackexchange.com/questions/97802/how-to-correctly-interpret-a-parallel-analysis-in-exploratory-factor-analysis
-
+* http://stats.stackexchange.com/questions/97802/how-to-correctly-interpret-a-parallel-analysis-in-exploratory-factor-analysis
+#### Scree plot
 
 ### Rotation
-
-We now know about loadings
+Oblique and Orthogonal *equivalent* rotated solutions.
 
 ### Scores: Why scores are not just data %*% loadings
 
-http://stackoverflow.com/questions/4145400/how-to-create-factors-from-factanal
-
-Can we construct scores on our factors?
+Can we construct scores on our factors? [yes](http://stackoverflow.com/questions/4145400/how-to-create-factors-from-factanal)
 
 An intuition might be: Factors = data matrix * Loadings matrix.
 
@@ -94,8 +90,6 @@ Factor1       1       0       0
 Factor2       0       1       0
 Factor3       0       0       1
 ```
-
-#### What happens with missing data
 
 **Next week**: We will convert this model to CFA.
 
