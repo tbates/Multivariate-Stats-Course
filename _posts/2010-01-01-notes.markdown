@@ -9,13 +9,14 @@ categories: notes
 ## MSc  stats notes
 
 https://github.com/tbates/Multivariate-Stats-Course
+
 http://tbates.github.io/Multivariate-Stats-Course
 
 https://cran.r-project.org/web/packages/psych/vignettes/psych_for_sem.pdf
 
 ```splus
 library(arm)
-m1 = lm(mpg~ wt*disp, data = mtcars)
+m1 = lm(mpg ~ wt * disp, data = mtcars)
 arm::display(arm::standardize(m1))
 
 require(umx)
@@ -31,7 +32,9 @@ m1 <- umxRAM("OneFactor", data = myData,
 
 umxSummary(m1, showEstimates = "std")
 plot(m1)
+
 ```
+
 Openness effect on politics is mediated by NFC.
 
 ## Transforms
