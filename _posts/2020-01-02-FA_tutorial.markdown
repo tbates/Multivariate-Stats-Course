@@ -6,6 +6,7 @@ categories: intro
 ---
 
 ## Tutorial 1.
+[I live here](https://github.com/tbates/Multivariate-Stats-Course)
 
 1. Find and load the `bfi` dataset (in the psych package).
 2. Find a package in R that does parallel analysis
