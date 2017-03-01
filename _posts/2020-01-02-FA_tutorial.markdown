@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Overview and Factor Analysis"
+title: "Tutorial 1-FA"
 comments: true
 categories: intro
 ---
