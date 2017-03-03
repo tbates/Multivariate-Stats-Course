@@ -20,7 +20,7 @@ An [overview of the next 5 weeks is here](http://tbates.github.io/Multivariate-S
 6. Causality?
 
 
-We begin this week by learning how to do a factor analysis in R.
+### Tutorial: We begin this week by learning how to do a factor analysis in R.
 
 Show how the EFA needs to fix latent variances at 1 and covariances at 0, and fix the upper right triangle of whatever matrix contains the latent loadings.
 
