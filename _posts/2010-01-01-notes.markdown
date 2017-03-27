@@ -51,7 +51,7 @@ http://stats.stackexchange.com/questions/13314/is-r2-useful-or-dangerous/13317#1
 http://stats.stackexchange.com/questions/20523/difference-between-logit-and-probit-models
 
 ## Classic datasets
-https://en.wikipedia.org/wiki/Iris_flower_data_set
+[Iris_flower_data_set](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 
 ## Approaches
 scikit

@@ -25,12 +25,13 @@ Overview of the next 5 weeks of [MV stats](http://www.drps.ed.ac.uk/15-16/dpt/cx
 	* Implement our factor analysis as an exploratory factor analysis.
 	* Introduce the idea of confirmatory factor analysis.
 	* Discuss the important concept which this brings with it: fit.
+	* *Curb your enthusiasm*: By week 3 you should understand what boxes, circles, triangles, diamonds, and straight and curved arrows are. 
 	* **Tutorial**: Building a CFA of built-in five-factor model data.
 3. Path models: "Regression on steroids"
 	* Building the equivalent of `lm(y ~ x + z)` in `umx`.
 	* This leverages two ideas you already understand: Factor analysis and linear models/ANOVA.
 	* Measurement invariance?
-	* *Curb your enthusiasm*: By week 2 you should understand what boxes, circles, triangles, diamonds, and straight and curved arrows are. 
+	* *Curb your enthusiasm*: By week 3 you should understand. 
 	* **Tutorial**: Implementing regression model in umx.
 4. Model comparison a ratchet taking science toward truth and valid causal inference.
 	* Testing (and, critically, mxCompare()-ing) *ideas*.
